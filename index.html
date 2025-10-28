@@ -319,8 +319,8 @@
                             <a href="#"><i class="fas fa-list"></i> CATEGORIES <i class="fas fa-caret-down"></i></a>
                             <div class="dropdown-menu">
                                 <ul>
-                                    <li><a href="#" data-category="all">All</a>All</li>
-                                    <li><a href="#" data-category="action">Action</a></li>
+                                    <li><a href="#" data-category="all">All</a></li>
+                                    <li><a href="#" data-category="animal">Animal</a></li>
                                     <li><a href="#" data-category="adventure">Adventure</a></li>
                                     <li><a href="#" data-category="comedy">Comedy</a></li>
                                     <li><a href="#" data-category="drama">Drama</a></li>
@@ -361,7 +361,7 @@
                         <div class="mobile-dropdown">
                             <ul>
                                 <li><a href="#" data-category="all">All Anime</a></li>
-                                <li><a href="#" data-category="action">Action</a></li>
+                                <li><a href="#" data-category="animal">Animal</a></li>
                                 <li><a href="#" data-category="adventure">Adventure</a></li>
                                 <li><a href="#" data-category="comedy">Comedy</a></li>
                                 <li><a href="#" data-category="drama">Drama</a></li>
@@ -474,7 +474,7 @@
         ];
 
         let currentPage = 1;
-        const postsPerPage = 6;
+        const postsPerPage = 10000000;
         let currentPosts = [...animeData]; 
 
         function createPostCard(anime) {
